@@ -1,0 +1,61 @@
+#timeLine_wrapper h2, h4, p {
+    color: white;
+}
+
+#line {
+    position: relative;
+    height: 1%;
+    width: 100%;
+    margin-top: 32vh;
+    background-color: whitesmoke;
+}
+
+#timeLine_wrapper {
+    position: absolute;
+    height: 70vh;
+    width: 100%;
+    margin-top: -35vh;
+    padding-left: 15%;
+}
+
+.timeLine_down, .timeLine_up {
+    height: 70vh;
+    float: left;
+    width: 12%;
+    text-align: center;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.timeLine_up h4, .timeLine_down h4 {
+    height: 20vh;
+}
+
+.timeLine_up {
+    margin-top: 4vh;
+}
+
+.timeLine_down {
+    margin-top: 35vh;
+}
+
+.timeLine_up h4 {
+    margin-bottom: 2vh;
+
+}
+
+.timeLine_down h2 {
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+}
+
+.description {
+    padding: 0 0 0 25%;
+    color: white;
+    width: 50%;
+    font-family: "Blogger Sans Light", sans-serif;
+    text-align: center;
+    margin-top: 40vh;
+}
+
+/* Well it's a mess. :( so many padding ands margins, not elegant at all :/ Hope it get's fixed somehow */

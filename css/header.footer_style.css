@@ -1,0 +1,88 @@
+
+@font-face {
+    font-family: 'Blogger Sans Light';
+    src: url('../fonts/BSL.ttf');
+}
+
+
+header, footer {
+    font-family: "Blogger Sans Light", Helvetica, sans-serif;
+    font-size: 14px;
+    width: 80%;
+    background-color: transparent;
+    text-align: center;
+    margin-left: 10%;
+    position: fixed;
+    color: white;
+    z-index: 2;
+}
+
+header {
+    margin-top: 61vh;
+
+}
+
+footer {
+    margin-top: 95vh;
+}
+
+#menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 0 20px;
+    border-bottom: 1px solid #dadada;
+}
+
+#menu li {
+    display: inline;
+    padding: 20px;
+}
+
+#menu li:hover {
+    color: #aaaaaa;
+
+}
+
+#menu li.active {
+    border-bottom: 2px solid white;
+}
+
+footer img {
+    display: inline-block;
+    width: 3vh;
+    height:3vh;
+
+    position: relative;
+    bottom:0.7vh;
+
+}
+#fb{
+    width: 3vh;
+    height:2.5vh;
+}
+/* footer .link
+{
+    font-family: Montserrat, serif;
+    font-size:18px;
+    padding-right: 4%;
+    padding-bottom: 10px;
+    position: relative;
+    bottom:1vh;
+
+} */
+.social-icons a {
+    text-decoration: none;
+    font-size: 25px;
+    margin-right: 15px;
+    color: #ababab;
+    display: inline-block;
+    transition: color 0.5s, transform 0.5s;
+    text-shadow: 0 0 50px rgba(255, 255, 255, 0.5);      
+}
+
+footer .link
+{
+    font-family: Montserrat, serif;
+    padding-left: 10px;
+    padding-right: 40px;
+}

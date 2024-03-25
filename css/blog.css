@@ -1,0 +1,127 @@
+.left_content_wrap{
+
+    width: 40%;
+    padding-left:10%;
+    padding-top:5%;
+    display:inline-block;
+
+
+}
+
+.right_content_wrap{
+    width: 40%;
+    padding:5% 3%  5% 3%;
+
+    display:inline-block;
+    vertical-align: top;
+
+}
+
+.left_content_head{
+
+    font-weight: bold;
+    color: rgb(90, 212, 238);
+    font-family: Montserrat, serif;
+    text-transform: uppercase;
+    text-align: left;
+    font-size:50px;
+}
+
+.left_content_blog{
+    padding-top: 3%;
+    color: rgb(253, 250, 244);
+    font-family: Montserrat, serif;
+    font-size:22px;
+    line-height: 140%;
+
+
+
+
+}
+
+.button{
+    color: rgb(90, 212, 238);
+    font-family: Montserrat, serif;
+    text-transform: uppercase;
+    text-align: center;
+    border: solid rgb(90, 212, 238) 4px;
+    width:auto;
+    display:inline-block;
+    margin-top:5%;
+    padding:2%;
+    font-size:26px;
+    box-shadow: inset 0 0 0 0 rgb(90, 212, 238);
+    -webkit-transition: all ease 0.8s;
+    -moz-transition: all ease 0.8s;
+    transition: all ease 0.8s;
+
+}
+.button a,a:hover,a:active{
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit;
+    font-family: Montserrat, serif;
+
+
+}
+#caps
+{
+
+    font-weight: 700;
+    letter-spacing: 1.5px;
+
+}
+
+/*.button:hover{
+    box-shadow: inset 0 100px 0 0 rgb(90, 212, 238);
+    color: #0f7ea3;
+
+
+}*/
+
+
+.articlebox{
+    text-align: left;
+    display: inline-block;
+    padding-bottom:5%;
+    padding-top:2%;
+
+
+    width:100%;
+    border-bottom: thin solid rgb(191, 185, 176);
+
+
+}
+
+.awrap{
+    margin: 0 auto;
+    width:65%;
+}
+
+.article_title{
+    font-weight: 700;
+    font-size: 26px;
+    text-transform: capitalize;
+    font-family:  Montserrat, serif;
+    letter-spacing: 0.5px;
+    color: rgb(90, 212, 238);
+}
+
+.article_title:hover{
+    opacity: 0.5;
+}
+.author{
+color:rgb(253, 250, 244);
+    padding-left: 1%;
+
+}
+.by{
+    font-style: italic;
+
+}
+
+.article_date{
+    color: rgb(249, 243, 234);
+    font-size: 14px;
+
+    padding-left: 1%;
+}

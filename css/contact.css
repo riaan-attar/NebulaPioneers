@@ -1,0 +1,97 @@
+.contact-box
+{
+
+    width:100%;
+    height:auto ;
+    margin:0;
+    display:block;
+    padding-left:6%;
+    padding-right: 4%;
+    align:center;
+    padding-bottom: 10px ;
+    background: rgb(242, 239, 233);
+
+
+}
+.person-box
+{
+    padding-right: 2%;
+    padding-left: 2%;
+    width: 26%;
+    display:inline-block;
+    border-color: #6FBED9;
+    height:auto;
+    padding-top: 1%;
+
+
+}
+
+.person-box img
+{
+    backface-visibility: hidden;
+    border-radius: 50%;
+    width:9vw;
+    height: auto;
+    padding: 2vh 0;
+
+
+}
+.person-box .datawrap
+{
+    text-align: left;
+
+    border-top: thin solid rgb(191, 185, 176);
+    width:90%;
+    height: auto;
+    padding: 2vh 0;
+}
+
+.person-box .datawrap .name
+{
+
+    font-family: Montserrat, serif;
+    font-size:22px;
+    color: rgb(51, 59, 68);
+}
+
+.inquiry
+{
+    width:100%;
+   height:auto;
+
+}
+.inq-wrap{
+    padding-left:17vh;
+    padding-top:5vh;
+    color:white;
+
+
+}
+.inquiry .data{
+
+    padding-top: 4vh;
+    display:inline-block;
+    padding-right:5vh;
+    width:30%;
+    padding-bottom: 3vh;
+    font-size:18px;
+
+
+
+}
+.inquiry .data .sig {
+    font-weight: 700;
+    letter-spacing: 0.75px;
+
+}
+.inquiry #inq-head
+
+{
+    font-family: Montserrat, sans-serif;
+    font-size:26px;
+    text-transform: uppercase;
+
+}
+
+
+

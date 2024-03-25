@@ -1,0 +1,166 @@
+.content-wrap{
+
+    width:100%;
+    margin:  0;
+
+
+}
+
+
+.aside{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    margin:0 auto;
+    padding-left:4%;
+    padding-right: 4%;
+    align: center;
+    padding-bottom: 10px ;
+    background: rgb(84,183,208);
+
+
+}
+.content{
+    text-transform: uppercase;
+    display: inline-block;
+    width:20%;
+    text-align: right;
+}
+.num{
+    font-family: Montserrat,sans-serif;
+    font-weight:900;
+    font-size:44px;
+    color: rgba(2,6,25, 0.93);
+    text-align:right;
+
+
+}
+.text{
+    font-family: 'Roboto', sans-serif;
+    font-weight:900;
+    text-align:right;
+    color: rgba(2,6,25, 0.93);
+
+    padding-left: 10px;
+
+}
+
+.content-box{
+    width:80%;
+
+    padding:10px;
+    margin: 10px auto ;
+
+
+}
+
+
+.content-box:before{
+    top: 7vh;
+    bottom: 17vh;
+    position: absolute;
+    content:" ";
+    width: 3px;
+background : rgb(84,183,208);
+    left: 50%;
+
+
+}
+
+
+.content-text{
+    width:40%;
+    height: 30%;
+    padding-top:30px;
+
+
+    position: relative;
+
+    display:block;
+    text-align:left;
+
+
+
+}
+.content-text.spacing{
+    display:inline-block;
+
+}
+.content-text.left{
+    text-align: left;
+
+    padding:10px 10px;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     /*border-right: solid rgb(255, 255, 255) 5px;*/
+
+}
+
+#first {
+
+    margin-top: 30px;
+}
+#last{
+   margin-bottom:30px;
+
+}
+.content-text.right{
+    /*display: inline-block;
+    text-align: right;
+    border-left: solid rgb(212, 212, 212) 5px;
+    margin-left:6px;*/
+
+    text-align: center;
+    float: right;
+    padding:5px 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+
+}
+.content-overview{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+
+    display:block;
+    padding-left: 20px;
+    vertical-align: middle;
+    color: rgb(84,183,208);
+    width: 100%;
+    text-align: left;
+
+    }
+.content-text.left .content-overview{
+    position:relative;
+    right: 30px;
+
+    text-align:right;
+}
+
+.content-detail{
+    width:90%;
+    display: inline-block;
+
+    padding-left: 20px;
+    font-size: 14px;
+    vertical-align: middle;
+    color: white;
+    font-weight: 400;
+    text-space: 5px;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+}
+.in:after{
+    content: '';
+    position: absolute;
+    top: 64px;
+    right: -10vh;
+    width: 11px;
+    height: 11px;
+    -webkit-transform: rotate(-45deg);
+
+    border-radius:50%;
+    border: solid grey;
+    background: white;
+
+}

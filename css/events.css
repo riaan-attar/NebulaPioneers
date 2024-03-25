@@ -1,0 +1,129 @@
+
+
+.slide{
+	margin-top:2vh;
+}
+
+.tiles{
+  position:relative;
+  margin-left: 15vw;
+  width:400px;
+  height:80vh;
+  float:left;
+}
+
+#calendar:hover{
+	color:#333;
+
+}
+
+#slide-3{
+	margin-left: 135px;
+
+}
+
+
+#picture-tile-2{
+	margin-left:20vw;
+	float:left;
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)),
+     url(../img/sample2.jpg);
+
+}
+
+.top h1, .mid h2 {
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;	
+  color: white;
+	margin-right:5vw;
+  font-size:7vh;
+  width:360px;
+  padding-left: 50vw;
+  z-index:1;
+}
+
+.mid h2 {
+	font-family: "Blogger Sans Light", Helvetica, sans-serif;
+    padding-left: 50vw;
+	padding-top:20vh;
+    font-size:3vh;
+}
+
+.small-tiles-row-1{
+  position: relative;
+  width:50px;
+  height:50px;
+  background:#333;
+  float:left;
+  font-size:40px;
+  color:white;
+
+}
+
+.small-tiles-row-2{
+  position: absolute;
+  margin-top: 0vh;
+  width:50px;
+  height:50px;
+  background:white;
+  float:left;
+  font-size:40px;
+  color:#575A5C;
+}
+
+#small-tile-1{
+  margin-left: 25vw;
+}
+
+#small-tile-rest{
+  position:relative;
+  margin-left: 10px;
+}
+
+.slidetext1{
+	position:absolute;
+	margin-left:25vw;
+	margin-top: -30vh;
+	letter-spacing: 1vw;
+	font-family: 'Dosis', sans-serif;
+	font-size:100px;
+	color:white;
+	font-weight:200;
+}
+
+.slidetext2{
+	position:absolute;
+	margin-left:25vw;
+	margin-top: -13vh;
+	font-family: 'Dosis', sans-serif;
+	letter-spacing: 7px;
+	font-size:58px;
+	color:#333;
+	font-weight:200;
+}
+
+.slidetext3{
+	position:absolute;
+	font-family: 'Ubuntu', sans-serif;
+	font-size:50px;
+	color:white;
+	margin-left:39vw;
+	margin-top: -12vh;
+}
+
+#triangle-right{
+	position:absolute;
+	border-top: 10px solid transparent;
+	border-left: 25px solid white;
+	border-bottom: 15px solid transparent;
+	margin-top: -9vh;
+	margin-left:50vw;
+	-webkit-transform: rotate(10deg);
+}
+
+#triangle-right:hover{
+	border-left: 25px solid #333;
+}

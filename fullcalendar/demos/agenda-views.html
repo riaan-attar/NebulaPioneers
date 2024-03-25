@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8' />
+<link href='../fullcalendar.css' rel='stylesheet' />
+<link href='../fullcalendar.print.css' rel='stylesheet' media='print' />
+<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
+<script src='../lib/moment.min.js'></script>
+<script src='../lib/jquery.min.js'></script>
+<script src='../fullcalendar.min.js'></script>
+<script>
+
+	$(document).ready(function() {
+		
+		$('#calendar').fullCalendar({
+			header: {
+				left: 'prev,next today',
+				center: 'title',
+				right: 'month,agendaWeek,agendaDay'
+			},
+			defaultDate: '2016-06-12',
+			editable: true,
+			eventLimit: true, // allow "more" link when too many events
+			events: [
+				{
+					//title:'', start:'yyyy-mm-dd',end:'yyyy-mm-dd'},
+					title: 'All Day Event',
+					start: '2016-06-01'
+				},
+	
+				{
+					title: 'Click for Game of Thrones',
+					url: 'file:///D:/web-project/test-site/index.html',
+					start: '2016-07-01'
+				}
+			]
+		});
+		
+	});
+
+</script>
+<style>
+
+	body {
+		margin: 40px 10px;
+		padding: 0;
+		font-family: 'Roboto Condensed', sans-serif;
+		font-weight: 300;
+	//	font-family: 'Josefin Slab', serif;
+	//	font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+		font-size: 14px;
+		background-image: url(aac.png);
+
+	}
+
+	#calendar {
+		max-width: 800px;
+		margin: 0 auto;
+		color:white;
+		background-image:url(aac.png);
+	}
+
+	h1{
+  	color: white;
+  	background-color: #6FBED9;
+  	text-align: center;
+  	font-size: 40px; 
+ 	padding: 20px;
+}
+
+</style>
+</head>
+<body>
+	<h1>AAC CALENDAR</h1>
+	<div id='calendar'></div>
+</body>
+</html>

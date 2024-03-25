@@ -1,0 +1,89 @@
+#AAC_constellation, #AAC_overlay, #c1, #c2, #c3, #c4,
+#o1, #o2, #o3, #o4 {
+    margin: 0;
+    position: absolute;
+    background-color: transparent;
+    width: 90%;
+    height: 200px;
+    padding: 0 0 0 5%;
+}
+
+/* #AAC_constellation, #AAC_overlay {
+     padding-left: 1%; 
+    width: 200px;
+    height: 250px;
+} */
+
+/* #AAC_constellation {
+    background: url('../img/AAC_constellation.png') no-repeat center;
+    /* z-index: 3;    
+} */
+
+/* #AAC_overlay {
+    background: url('../img/AAC_overlay.png') no-repeat center;
+   
+} */
+
+#AAC_constellation, #AAC_overlay {
+    padding-left: 10%;
+}
+
+#AAC_constellation {
+    background: url('../img/AAC_constellation.png') no-repeat center;
+    /* z-index: 3; */
+    width: 100%;
+    height: 100%;
+    
+}
+
+#AAC_overlay {
+    background: url('../img/AAC_overlay.png') no-repeat center;
+    width: 100%;
+    height: 100%;
+   
+}
+
+#c3, #o3 {
+
+    padding-top: 700px;
+}
+
+#c4, #o4 {
+    padding-top: 700px;
+}
+
+#c1 {
+    background: url('../img/C1.png') no-repeat left;
+}
+
+#c2 {
+    background: url('../img/C2.png') no-repeat right;
+}
+
+#c3 {
+    background: url('../img/C3.png') no-repeat left;
+}
+
+#c4 {
+    background: url('../img/C4.png') no-repeat right;
+}
+
+#o1 {
+    background: url('../img/O1.png') no-repeat left;
+}
+
+#o2 {
+    background: url('../img/O2.png') no-repeat right;
+}
+
+#o3 {
+    background: url('../img/O3.png') no-repeat left;
+}
+
+#o4 {
+    background: url('../img/O4.png') no-repeat right;
+}
+
+#o1, #o2, #o3, #o4 {
+    opacity: 0;
+}

@@ -1,0 +1,33 @@
+#photos.content_wrapper {
+    height: 80vh;
+    width: 90%;
+    left: 5%;
+    top: 10vh;
+    bottom: 10vh;
+}
+
+#photos .photo_row {
+    width: 100%;
+    height: 24vh;
+    margin-top: 2vh;
+    padding: 0;
+}
+
+.photo_row img {
+    height: 100%;
+    width: auto;
+    margin-left: 1vh;
+    margin-right: 1vh;
+}
+
+#row1.photo_row img {
+    float: left;
+}
+
+#row2.photo_row img {
+    float: right;
+}
+
+#row3.photo_row img {
+    float: right;
+}

@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>NebulaPionners</title>
+	<meta name="description" content="The official website of Amateur Astronomy Club NITK">
+	<meta name="keywords" content="amateur, astronomy, nitk, star gazing club">
+
+	<link href='https://fonts.googleapis.com/css?family=Titillium+W   eb:400,900' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Catamaran:400,500,700,900' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Dosis:200' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:500italic' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css"/>
+
+	<link rel="stylesheet" type="text/css" href="css/header.footer_style.css"/>
+	<link rel="stylesheet" type="text/css" href="css/main.css"/>
+	<link rel="stylesheet" type="text/css" href="css/bg_color.css"/>
+	<link rel="stylesheet" type="text/css" href="css/constellations.css"/>
+	<link rel="stylesheet" type="text/css" href="css/timeline.css"/>
+	<link rel="stylesheet" type="text/css" href="css/contact.css"/>
+
+	<link rel="stylesheet" type="text/css" href="css/events.css"/>
+    <link rel="stylesheet" type="text/css" href="css/blog.css"/>
+
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css">
+
+
+	<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css" type="text/css" media="screen"/>
+	<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css" type="text/css"
+		  media="screen"/>
+	<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css" type="text/css"
+		  media="screen"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-xxx" crossorigin="anonymous" />
+	<script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="anonymous"></script>
+
+
+	<!--load WOW js from CDN-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js">
+	</script>
+
+	<script> new WOW().init();</script>
+</head>
+<body>
+<header>
+	<ul id="menu">
+		<li data-menuanchor="home" class="active" onclick="$.fn.fullpage.moveTo('home', 0)">Home</li>
+		<li data-menuanchor="about" onclick="$.fn.fullpage.moveTo('about', 0)">About</li>
+		<li data-menuanchor="events" onclick="$.fn.fullpage.moveTo('events', 0)">Events</li>
+
+		<li data-menuanchor="blog" onclick="$.fn.fullpage.moveTo('blog', 0)">Blog</li>
+		<li data-menuanchor="contact" onclick="$.fn.fullpage.moveTo('contact', 0)">Contact</li>
+	</ul>
+</header>
+<!-- <footer><a href="https://www.instagram.com/nebulapioneers/"><img id="fb" src="img/insta_white.png"/><span class="link">Instagram</span></a><img src="img/GitHub-Mark-Light-32px.png"/><span class="link">@amateur-astronomy-club</span><img src="img/twitter_white.png"/><span class="link"> @aacnitk</span></footer> -->
+<footer class="social-icons">
+    <a href="https://www.instagram.com/nebulapioneers/"><i class="fab fa-instagram"></i><span class="link">Instagram</span></a>
+    <a href="https://www.instagram.com/nebulapioneers/"><i class="fab fa-linkedin"></i><span class="link">linkedin</span></a>
+	<a href="https://www.instagram.com/nebulapioneers/"><i class="fab fa-x-twitter"></i><span class="link">Twitter</span></a>
+</footer>
+
+<div class="scroll_wrapper bg_color">
+
+
+	<div class="page" id='home'>
+		<div class="page_wrapper">
+			<canvas class="stars" id="stars1"></canvas>
+
+			<div class="content_wrapper">
+				<div id='AAC_overlay'></div>
+				<div id='o1'></div>
+				<div id='o2'></div>
+				<div id='o3'></div>
+				<div id='o4'></div>
+				<div id='c1'></div>
+				<div id='c2'></div>
+				<div id='c3'></div>
+				<div id='c4'></div>
+				<div id='AAC_constellation'></div>
+
+				<div id="landing_subTitle" style="font-size: 28px;"> A club for Astronomy and Astrophysics Enthusiasts
+				</div>
+
+				<div id="landing_description" style="font-size: px;"> 
+                Our vision is to emerge as a formal organization which instigates space enthusiasts to mature into results oriented and passionate amateur astronomers by applying engineering concepts to astronomy.
+				</div>
+
+			</div>
+		</div>
+
+
+	</div>
+	<div class="page" id='about'>
+
+		<div class="page_wrapper">
+			<canvas class="stars" id="stars2"></canvas>
+
+			<div class="content_wrapper">
+				<div class="aside">
+					<div class="content">
+						<div class="num">2</div>
+						<div class="text">Telescopes</div>
+					</div>
+					<div class="content">
+						<div class="num">63</div>
+						<div class="text">Members</div>
+					</div>
+					<div class="content">
+						<div class="num">15</div>
+						<div class="text">Projects</div>
+					</div>
+					<div class="content">
+						<span class="num .integers">200+</span>
+
+						<div class="text">Alumni</div>
+					</div>
+
+				</div>
+				<div class="content-box" id="one">
+
+
+					<div class="content-text left wow fadeInLeft" id="first">
+
+						<div class="content-overview">Engineer - Astro Committee</div>
+						<div class="content-detail">The only club to have its own committee for Engineer! Projects, exhibits quizzes and more!</div>
+					</div>
+					<div class="content-text spacing"></div>
+					<div class="content-text right wow fadeInRight">
+						<div class="content-overview">Starry Nights</div>
+						<div class="content-detail">Join us on the for a spectacular tour of the night sky through our telescopes</div>
+					</div>
+					<div class="content-text left wow fadeInLeft">
+						<div class="content-overview">Sci-Tutor</div>
+						<div class="content-detail">Introducing school children to the wonderful world of Maths and Science</div>
+					</div>
+					<div class="content-text spacing"></div>
+					<div class="content-text right wow fadeInRight">
+						<div class="content-overview">School Workshops</div>
+						<div class="content-detail">Interactive workshops conducted by members of the club for school children</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+
+	</div>
+	<div class="page" id='events'>
+		<div class="page_wrapper">
+			<canvas class="stars" id="stars3"></canvas>
+			<div class="content_wrapper">
+
+				<div class="section">
+					<div class="slide">
+						<div class="slidetext1">EVERYTHING
+						</div>
+						<div class="slidetext2">RIGHT
+						</div>
+						<div class="slidetext3">HERE
+						</div>
+						<shape id="triangle-right">
+						</shape>
+						
+
+						<div class="smalltilerow">
+							<div class="small-tiles-row-1" id="small-tile-1">A
+							</div>
+							<div class="small-tiles-row-1" id="small-tile-rest"> A
+							</div>
+							<div class="small-tiles-row-1" id="small-tile-rest">C
+							</div>
+						</div>
+						<div class="smalltilerow">
+							<div class="small-tiles-row-2" id="small-tile-rest">E
+							</div>
+							<div class="small-tiles-row-2" id="small-tile-rest">V
+							</div>
+							<div class="small-tiles-row-2" id="small-tile-rest">E
+							</div>
+							<div class="small-tiles-row-2" id="small-tile-rest">N
+							</div>
+							<div class="small-tiles-row-2" id="small-tile-rest">T
+							</div>
+							<div class="small-tiles-row-2" id="small-tile-rest">S
+							</div>
+						</div>
+					</div>
+
+
+					<div class="slide">
+						<div class="tiles" id="picture-tile-1">
+							<img class="mySlides" src="img/astrocomm1.jpg" width="400">
+							<img class="mySlides" src="img/astrocomm2.jpg" width="400">
+							<img class="mySlides" src="img/astrocomm3.jpg" width="400">
+							<img class="mySlides" src="img/astrocomm4.jpg" width="400">
+							<img class="mySlides" src="img/astrocomm5.jpg" width="400">
+						</div>
+						<div class="module mid">
+  							<h2>
+  								As a committee during NITK's technical fest Engineer, the Amateur Astronomy club puts up an exhibition consisting of several models and projects related to astronomy and astrophysics. We also organize quizzes, events and workshops.
+  							</h2>
+						</div>
+						<div class="module top">
+							<h1>Astro Committee</h1>
+						</div>
+
+				<!-- <div class="tiles" id="picture-tile-2"> -->
+					<!-- </div> -->
+					</div>
+
+
+					<div class="slide">
+						<div class="tiles" id="picture-tile-1">
+							<img class="mySlides" src="img/scitutor1.jpg" width="400">
+							<img class="mySlides" src="img/scitutor2.jpg" width="400">
+							<img class="mySlides" src="img/scitutor3.jpg" width="400">
+							<img class="mySlides" src="img/scitutor4.jpg"  width="400">
+						</div>
+						<div class="module mid">
+  							<h2>
+  								Sci-Tutor is a new initiative by AAC where we conduct classes every fortnight for the children attending the NITK English Medium School.
+                                Often what is taught in the classroom is presented in a way that limits imagination and fails to ignite interest in the subject.
+                                What we plan to do is explain concepts in a creative way and make them more passionate about science. 
+  							</h2>
+						</div>
+						<div class="module top">
+							<h1>Sci-Tutor</h1>
+						</div>
+
+				<!-- <div class="tiles" id="picture-tile-2"> -->
+					<!-- </div> -->
+					</div>
+
+                <div class="slide">
+						<div class="tiles" id="picture-tile-1">
+							<img class="mySlides" src="img/starrynight1.jpg" width="400">
+							<img class="mySlides" src="img/starrynight2.jpg" width="400">
+							<img class="mySlides" src="img/starrynight3.png" width="400">
+							<img class="mySlides" src="img/starrynight4.jpg"  width="400">
+						</div>
+						<div class="module mid">
+  							<h2>
+  								An event which never fails to attract large crowds, Starry Nights gives NITKans an opportunity to look at the sky through a telescope. 
+                                This event is often held on full moon nights, when our Parabolic Newtonian Reflector telescope gives us an excellent view of the craters on the moon.
+                                Looking at the rings of Saturn, the crescent Venus, and the moons of Jupiter make these nights memorable ones.  
+  							</h2>
+						</div>
+						<div class="module top">
+							<h1>Starry Nights</h1>
+						</div>
+
+				<!-- <div class="tiles" id="picture-tile-2"> -->
+					<!-- </div> -->
+					</div>    
+                 
+                <div class="slide">
+						<div class="tiles" id="picture-tile-1">
+							<img class="mySlides" src="img/schoolworkshop1.jpg" width="400">
+							<img class="mySlides" src="img/schoolworkshop2.jpg" width="400">
+							<img class="mySlides" src="img/schoolworkshop3.jpg" width="400">
+							<img class="mySlides" src="img/schoolworkshop4.jpg"  width="400">
+						</div>
+						<div class="module mid">
+  							<h2>
+  								Every year, before the technical fest Engineer, the members of AAC visit schools nearby to conduct engaging workshops on anything related to science or astronomy. This consists of a hands-on session where the kids build a model related to space and astronomy. 
+  							</h2>
+						</div>
+						<div class="module top">
+							<h1>School Workshops</h1>
+						</div>
+
+				<!-- <div class="tiles" id="picture-tile-2"> -->
+					<!-- </div> -->
+					</div>
+
+				</div>
+			</div>	
+		</div>
+	</div>
+	
+
+	<div class="page" id='blog'>
+		<div class="page_wrapper">
+
+			<div class="content_wrapper">
+
+				<div class="left_content_wrap">
+
+                    <div class="left_content_head">Get up close and personal</div>
+                    <div class="left_content_blog">
+                        <!--Our members bring you tailor made articles and posts to fulfill your frequent interstellar needs.-->
+                    <!--Outer space objects<br>Star Gazing tutorials<br>A recent meteor shower<br>Images taken from our telescope
+                    <br>We write about it all !<br><br>
+
+                        Join along as we gaze the stars.<br>
+                        Get event details, telescope images and more.<br><br>-->
+                        <span id="caps">
+                           Join along as we gaze the stars.<br>
+                        Get event details, telescope images and more.<br>
+                        Read about what we do and what we love.<br>Follow us on our Blog.</span>
+                    </div>
+                    <div class="button"><a target="_blank" href="http://www.aacnitk.wordpress.com">View Blog</a></div>
+                    </div>
+
+                <div class="right_content_wrap">
+					<div class="awrap">
+                    <div class="articlebox">
+                        <div class="article_title">
+								the universe and us
+                        </div>
+                        <div class="oneliner"></div>
+                        <div class="article_date">
+							Sep 16 2016
+                        </div>
+                        <div class="author"><span class="by">By</span> Kunal Kulkarni</div>
+                    </div>
+
+					<div class="articlebox">
+						<div class="article_title">
+							Goodbye Hubble?
+						</div>
+						<div class="oneliner"></div>
+						<div class="article_date">
+							Sep 16 2016
+						</div>
+						<div class="author"><span class="by">By</span> Siddharth Menon</div>
+					</div>
+
+					<div class="articlebox">
+						<div class="article_title">
+							Mercury Fluctuations
+						</div>
+						<div class="oneliner"></div>
+						<div class="article_date">
+							Sep 13 2016
+						</div>
+						<div class="author"><span class="by">By</span> Vedant Dhruv</div>
+					</div>
+						<div class="articlebox">
+							<div class="article_title">
+								The Star-Seekers
+							</div>
+							<div class="oneliner"></div>
+							<div class="article_date">
+								 July 3 2017
+							</div>
+							<div class="author"><span class="by">By</span> Namratha G Naik</div>
+						</div>
+					</div>
+                </div>
+			</div>
+			</div>
+		</div>
+
+	<div class="page" id='contact'>
+		<div class="page_wrapper">
+
+			<div class="content_wrapper">
+				<div class="contact-box">
+					<div class="person-box">
+						<div class="circular--landscape"><img src="member_photos/Vedant.jpg" alt=""/></div>
+						<div class="datawrap">
+						<div class="name">Vedant Dhruv, Convener</div>
+
+						<div class="email">vedantdhruv96@gmail.com</div>
+						</div>
+					</div>
+
+					<div class="person-box">
+						<div class="circular--landscape"><img src="member_photos/Asavari.jpg" alt=""/></div>
+						<div class="datawrap">
+							<div class="name">Asavari Limaye, President</div>
+
+							<div class="email">asavari.limaye@gmail.com</div>
+						</div>
+					</div>
+
+					<div class="person-box">
+						<div class="circular--landscape"><img src="member_photos/Nikhil.jpeg" alt=""/></div>
+							<div class="datawrap">
+								<div class="name">Nikhil MG, Secretary</div>
+
+								<div class="email">mgnikhil1.50@gmail.com</div>
+							</div>
+					</div>
+
+					<div class="person-box">
+							<div class="circular--landscape"><img src="member_photos/Vignesh.jpg" alt=""/></div>
+							<div class="datawrap">
+								<div class="name">Vignesh R, AstroCommittee Convener</div>
+
+								<div class="email">vigneshrv24@gmail.com</div>
+							</div>
+					</div>
+			</div>
+
+
+
+			<div class="inquiry">
+				<div class="inq-wrap">
+				<div id="inq-head"> Inquiries</div>
+					<div class="data">
+						<span class="sig">Telescope & Astrophotography</span><br>
+						Veant Dhruv<br>
+						vedantdhruv96@gmail.com<br>
+					</div>
+                    <div class="data">
+                        <span class="sig">Astrophysics & Scitutor</span><br>
+                        Vedant Dhruv<br>
+						vedantdhruv96@gmail.com<br>
+                    </div>
+                    <div class="data">
+                        <span class="sig">Blog & Stellaspecta</span><br>
+                        Vedant Dhruv<br>
+						vedantdhruv96@gmail.com<br>
+                    </div>
+                    <div class="data">
+                        <span class="sig">Astronomy SIG</span><br>
+						Vedant Dhruv<br>
+						vedantdhruv96@gmail.com<br>
+                    </div>
+                    <div class="data">
+                        <span class="sig">Events & Initiatives</span><br>
+						Vedant Dhruv<br>
+						vedantdhruv96@gmail.com<br>
+                    </div>
+                    <div class="data">
+                        <span class="sig">Member List 2016-17</span><br>
+                        Download as PDF<br><br>
+
+                    </div>
+			</div>
+			</div>
+				</div>
+
+		</div>
+	</div>
+
+
+</div>
+
+<script src="https://code.jquery.com/jquery-latest.min.js"></script>
+<script src="https://code.jquery.com/color/jquery.color-2.1.0.js"></script>
+
+<!-- imports -->
+
+<script src="js/jquery.fullPage.min.js"></script>
+
+
+<!-- Other Scripts -->
+<script src="js/fullPage_init.js"></script>
+
+
+<script src="js/stars.js"></script>
+<script src="js/constellation.js"></script>
+<script src="js/events.js"></script>
+<script src="js/fullcalendar.js"></script>
+<script src="js/fullcalendar.min.js"></script>
+
+<script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+
+<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js"></script>
+
+<!-- Optionally add helpers - button, thumbnail and/or media -->
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js"></script>
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js"></script>
+
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js"></script>
+
+<script type="text/javascript">
+	<!-- Customize before publishing -->
+	$(".fancybox").fancybox({
+		'transitionIn': 'elastic',
+		'transitionOut': 'elastic',
+		'speedIn': 600,
+		'speedOut': 200,
+		padding: 3,
+		helpers: {
+			title: {
+				type: 'outside'
+			},
+			thumbs: {
+				width: 50,
+				height: 50
+			}
+		}
+	});
+</script>
+</body>
+</html>
