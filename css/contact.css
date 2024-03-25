@@ -9,7 +9,8 @@
     padding-right: 4%;
     align:center;
     padding-bottom: 10px ;
-    background: rgb(242, 239, 233);
+    /* background: rgb(242, 239, 233); */
+    background: #020619;
 
 
 }
@@ -50,8 +51,17 @@
 {
 
     font-family: Montserrat, serif;
-    font-size:22px;
-    color: rgb(51, 59, 68);
+    font-size:18px;
+    /* color: rgb(51, 59, 68); */
+    color: rgb(90, 212, 238);
+}
+.person-box .datawrap .email
+{
+
+    /* font-family: Montserrat, serif; */
+    font-size:18px;
+    /* color: rgb(51, 59, 68); */
+    color: rgb(238, 246, 247);
 }
 
 .inquiry
